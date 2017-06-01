@@ -1,0 +1,105 @@
+@keyframes move {
+  0% {transform: translateX(-400px);}
+  50% {transform: (translateX(800);)}
+  100% {transform: translateX(4000px);}
+}
+
+@keyframes grow {
+  0% {transform: translateY(1500px);}
+  100% {transform: translateY(0px);}
+}
+
+body {
+  background-image: url("/Users/learn/Desktop/animation/field.jpg");
+  background-size: cover;
+}
+.cloud {
+  animation-name: move;
+  animation-fill-mode: forwards;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  float: left;
+
+
+
+}
+
+
+.cloud2 {
+  animation-name: move;
+  animation-fill-mode: forwards;
+  animation-duration: 28s;
+  animation-iteration-count: infinite;
+  clear:left;
+  float: left;
+}
+
+.cloud3 {
+  animation-name: move;
+  animation-fill-mode: forwards;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  clear:left;
+  float: left;
+}
+
+.cloud4 {
+  animation-name: move;
+  animation-fill-mode: forwards;
+  animation-duration: 38s;
+  animation-iteration-count: infinite;
+  clear: left;
+  float: left;
+  position: relative;
+  z-index: 100;
+
+}
+
+.rain1 {
+  clear: left;
+  z-index: 1;
+  top: -60px;
+}
+
+.corn {
+  float:left;
+  clear: left
+}
+
+#corn1 {
+  padding: 0px 50px 0px 50px;
+  width: 10%;
+  animation-name: grow;
+  animation-fill-mode: forwards;
+  animation-duration: 9s;
+
+}
+
+#corn2{
+  padding: 0px 150px 0px 150px;
+  width: 10%;
+  animation-name: grow;
+  animation-fill-mode: backwards;
+  animation-duration: 11s;
+  position: relative;
+}
+
+#corn3 {
+  padding: 0px 150px 0px 150px;
+  width: 10%;
+  animation-name: grow;
+  animation-fill-mode: backwards;
+  animation-duration: 15s;
+}
+
+#corn4 {
+  padding: 0px 150px 0px 150px;
+  width: 10%;
+  animation-name: grow;
+  animation-fill-mode: backwards;
+  animation-duration: 19s;
+}
+
+img {
+  width: 10%;
+}
